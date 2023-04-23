@@ -5,7 +5,7 @@
   "main": "dist/selectable.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JSmith01/vue-selectable"
+    "url": "JoaoLuisQuirino/vue-selectable"
   },
   "directories": {
     "example": "examples-vue2"
@@ -25,6 +25,6 @@
     "vue",
     "selectable"
   ],
-  "author": "Dmitry Zlygin <dzlygin@gmail.com>",
+  "author": "Dmitry Zlygin <dzlygin@gmail.com> & João Luis Quirino quick fix",
   "license": "MIT"
 }
