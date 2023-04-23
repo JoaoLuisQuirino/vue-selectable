@@ -204,6 +204,7 @@ export default class selectable {
      * @param {MouseEvent} e
      */
     mouseDown(e) {
+        if(!e.target.closest(this.boundingBoxSelector)) return;
         const isSrcDescendant = this.el === e.target || this.el.contains(e.target);
         if (e.button !== 0 || !isSrcDescendant) {
             return;
